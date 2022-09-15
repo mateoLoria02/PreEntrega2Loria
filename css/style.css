@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+header nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px
+}
+.cont-img img {
+    border-radius: 2em;
+    width: 15%;
+    height: 150px;
+    margin: 3%;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+main section p a {
+    text-decoration: none;
+    color: rgb(248, 0, 0);
+}
+.texto-contacto {
+    text-align: center;
+}
+.sub {
+    text-align: center;
+    font-size: 20px;
+}
+.equipo {
+    margin-top: 5em;
+}
+.muestras {
+    margin-bottom: 4em;
+}
+.video-casa {
+    margin-left: 100px;
+}
+.imagenes {
+margin-left: 10%;
+}
