@@ -3,6 +3,9 @@
     padding: 0;
     color: black;
 }
+nav{
+    background-color: rgb(28, 81, 194);
+}
 header nav ul li a {
     text-decoration: none;
 }
@@ -10,12 +13,7 @@ header nav ul li {
     list-style-type: none;
     display: inline;
     margin: 10px
-}
-.cont-img img {
-    border-radius: 2em;
-    width: 15%;
-    height: 150px;
-    margin: 3%;
+    lis
 }
 h3 {
     text-align: center;
@@ -23,7 +21,7 @@ h3 {
 }
 main section p a {
     text-decoration: none;
-    color: rgb(248, 0, 0);
+    color: rgb(248, 120, 0);
 }
 .texto-contacto {
     text-align: center;
@@ -43,4 +41,78 @@ main section p a {
 }
 .imagenes {
 margin-left: 10%;
+}
+.form-contacto {
+    display: flex;
+    flex-direction: flex-end;
+}
+.galeria-casas {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: auto;
+
+}
+.casa1 {
+    grid-column: 1/2;
+    grid-row: 1/2
+}
+.casa2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.casa3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.casa4 {
+    grid-column: 2/3;
+    grid-row: 4/5
+}
+.casa5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.comentario1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comentario2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comentario3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comentario4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comentario5 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 50%;
+}
+.galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo-pag {
+    background-color: rgb(47, 90, 74);
 }
